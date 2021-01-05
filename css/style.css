@@ -4,12 +4,17 @@ body{
 
 h1{
     font-size:larger;
-    text-align: center;
-    color:pink;
-    background-color: aqua;
+    color:blue;
+    background-color:black;
 
 }
 p{
     color:blueviolet;
     background-color: black;
+}
+/* ol{
+    list-style:decimal;
+} */
+ul{
+    list-style:inside;
 }
