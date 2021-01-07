@@ -27,13 +27,11 @@ function gender(params) {
    
    }
    if (gender.toLowerCase()===yes||gender.toLowerCase()===Y) {
-       console.log(gender);
        alert('Correct !!! Im a Female ');
    score++;
    
    }
    else {
-       console.log(gender);
        alert('NOO !!! its wrong ');
    
    
@@ -57,13 +55,11 @@ function favcolor(params) {
   
    }
    if (guessFavcolor.toLowerCase()===yes||guessFavcolor.toLowerCase()===Y){
-      console.log(guessFavcolor);
       alert('Great !!! black its my favorite color  '); 
   score++;
   
    }
    else {
-      console.log(guessFavcolor);
       alert('NOO !!! its not my favorite color '); 
   
    }
@@ -85,13 +81,11 @@ function Name(params) {
   
    }
    if (guessMyName.toLowerCase()===yes||guessMyName.toLowerCase()===Y){
-      console.log(guessMyName);
       alert('Amazing !!! Amani its my name  '); 
       score++;
   
    }
    else {
-      console.log(guessMyName);
       alert('NOO !!! its not my name '); 
   
   
@@ -115,14 +109,12 @@ guessMyNat=prompt('Do You Think i have jordaian nationality ? ');
 
  }
  if (guessMyNat.toLowerCase()===yes||guessMyNat.toLowerCase()===Y){
-    console.log(guessMyNat);
     alert('Amazing !!! IM Jordaian  '); 
     score++;
 
 
  }
  else {
-    console.log(guessMyNat); 
     alert('NOO !!! its wrong ');
  }
 
@@ -142,13 +134,11 @@ Nationality();
      
       }
       if (guessFavDrink.toLowerCase()===yes||guessFavDrink.toLowerCase()===Y){
-         console.log(guessFavDrink);
          alert('GOOD JOB !!!! My Favorite Drink Is Coffe  ');
          score++;
      
       }
       else {
-         console.log(guessFavDrink);
          alert('NOO !!! its not My Fanorite Drink'); 
      
      
@@ -165,17 +155,14 @@ Nationality();
       console.log("guessNumber>>>>",guessNumber);
       var myNumber=11;
       if (guessNumber===myNumber){
-         console.log(guessNumber);
          alert('Congratss !! You Guessed it '+i+' attempt');
          score++;
          break;
       }
       else if (guessNumber>myNumber){
-         console.log(guessNumber);
          alert('Too High');
       }
       else if (guessNumber<myNumber) {
-         console.log(guessNumber);
          alert('Too Low');
       }
       if (i==4) {
@@ -196,7 +183,6 @@ for (var guess = 0; guess < 6; guess++) {
       var guessToLower = guessCar.toUpperCase();
    for (var i = 0; i < cars.length; i++) {
       if (guessToLower === cars[i]) {
-         console.log('guessToLower>>> inside if ', guessToLower );
          alert('YES !!! Its My Favorite Car');
          score++;
           guess = 6;
@@ -207,7 +193,6 @@ for (var guess = 0; guess < 6; guess++) {
    if (guess !== 6) {
       alert('Sorry ,,,,, Try Again ');
    }
-   console.log(guess);
 }
 }
 favCar();
