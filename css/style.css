@@ -1,11 +1,10 @@
 body{
-    background-color:#A9294F;
+    background-color:#d0e8f2;
 }
-
 .headerh1{
     font-size:larger;
     color:cornsilk;
-    background-color:#96bb7c;
+    background-color:#6f9eaf;
     height:75px;
     text-align:center;
     padding-top: 50px;
@@ -13,10 +12,9 @@ body{
 }
 p{
     color:cornsilk;
-    background-color:#96bb7c;
     text-align: center;
+    padding-top:50px;
     height:75px;
-    padding-top:75px;
     font-size: x-large;
     border-style: dashed;
 }
@@ -24,15 +22,47 @@ p{
 ul{
     list-style:inside;
 }
+
 .about,h1{
     font-size: x-large ;
-    color:#f6d887;
+    color:slateblue;
     margin-bottom:20px;
     margin-top:20px;
-    border-style: dashed;
+    border:1px saddlebrown;
 }
 header img{
     position:absolute;
     left:25px;
     width:50px;
+}
+.myinfo{
+ padding: 20px;
+ background-color:#c7753d;
+
+}
+.tenfav{
+    background-color:#d0e8f2;
+    padding: 20px;
+    counter-reset:initial;
+    line-height: 10mm ;
+    
+}
+ol{
+    list-style-type:upper-roman;
+}
+.intro{
+    position: relative;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    box-sizing: border-box;
+    float:right;
+    background-color:#433d3c;
+    width:600px;
+    height:683px ;
+    border:5px solid white;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:#6f9eaf;
 }
